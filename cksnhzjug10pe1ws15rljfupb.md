@@ -85,7 +85,7 @@ So, I'll write about the new challenges I face, new technologies I learn, also m
 
 ***Finally, I'd like to thank you for reading this article 🙏🏼, I'll be fully opened to know your opinion about my articles, happy to answer your questions and looking forward to discussing anything you disagree with me about 😇 .***
 
- [The original version of this article.](https://www.mohammedsalah.co/why-did-i-decide-to-write-and-create-blogy) 
+ [The original version of this article.](https://www.mohammedsalah.co/why-did-i-decide-to-write-and-create-bloggy) 
 
  [More articles in the blog.](https://www.mohammedsalah.co/blog) 
 
