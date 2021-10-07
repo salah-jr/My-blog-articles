@@ -2,7 +2,7 @@
 
 In this article, We will dig deep into one of the popular performance issues called the N+1 problem that could happen in most ORMs (Object Relational Mapper) tools. We will look over it and Discuss the available solutions. On top of that, I'll explain some of the data loading strategies like Lazy loading, Eager loading and Lazy eager loading.
 
-*The code in this article is written using PHP and Laravel syntax, but the concept is the same for any other language. Also, I will use the Laravel-debugbar package to show you the backstage operations such as DB queries, request duration and memory usage.
+*The code in this article is written using PHP and Laravel syntax, but the concept is the same for any other language. Also, I will use the  [Laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)  package to show you the backstage operations such as DB queries, request duration and memory usage.
 *
 
 ## Lazy loading
