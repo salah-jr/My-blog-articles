@@ -165,5 +165,5 @@ if(count($albums) < 100)
 The N+1 queries problem is a very common issue, knowing and understanding the cause of the issue is the most important solution for it. In this article, We learned how to detect the N+1 problem and how to deal with it in different ways. We wrote a PHP native solution in addition to learn some Laravel Eloquent tools that use eager loading to reduce the number of queries. We also threw the light on some loading strategies and the difference between them.
 
 
-***Thanks for reading! If you liked this article and want more content like this, Subscribe to my newsletter and make sure to follow me on  [Twitter](https://twitter.com/Sala7JR) and [Linkedin](https://www.linkedin.com/in/salah96/) *** 👋
+***Thanks for reading! If you liked this article and want more content like this, Subscribe to my newsletter and make sure to follow me on  [Twitter](https://twitter.com/Sala7JR) and [Linkedin](https://www.linkedin.com/in/salah96/) or visit my  [portfolio](https://www.mohammedsalah.co) *** 👋
 
