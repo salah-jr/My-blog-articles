@@ -85,7 +85,7 @@ In this example we will execute only two queries instead of 1001 queries, One to
 
 **1.  Using `with()` method**
 
-You can use the `with()` method to define which relation should eager loaded with the parent record
+You can use the `with()` method to define which relationships should be eager loaded with the parent record
 by adding the relation name as a parameter
 
 ```
