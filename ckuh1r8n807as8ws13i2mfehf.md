@@ -20,7 +20,7 @@ foreach($albums as $album)
      dump($images->toArray());
 }
 ``` 
-Here the lazy loading happens, in the First query we get all the albums from the database ( 1 query ) and inside the foreach we get the related images for every single album we have ( N queries ), imagine you have a thousand albums. Ouch! 😵 That will lead to executing a thousand queries to a database!  Which will cause the famous N+1 problem. This screenshot shows us what happens when we execute this code.
+Here the lazy loading happens, in the First query we get all the albums from the database ( 1 query ) and inside the `foreach` we get the related images for every single album we have ( N queries ), imagine you have a thousand albums. Ouch! 😵 That will lead to executing a thousand queries to a database!  Which will cause the famous N+1 problem. This screenshot shows us what happens when we execute this code.
 
 ![scrnli_10_6_2021_5-05-31 PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1633532682335/KLf6__iPD.png)
 
@@ -83,7 +83,7 @@ In this example we will execute only two queries instead of 1001 queries, One to
 ### Laravel Eager Loading solutions
 
 
-**1.  Using with() method**
+**1.  Using `with()` method**
 
 You can use the `with()` method to define which relation should eager loaded with the parent record
 by adding the relation name as a parameter
@@ -107,7 +107,7 @@ You can also eager load multiple relations by passing them as an array parameter
 
 Using the nested eager loading to load a relationship from a relationship. `with('images.photographer')` 
 
-Or minimize the memory usage by only loading a specific columns `with('images:title,size')` ,
+Or minimize the memory usage by only loading specific columns `with('images:title,size')` ,
 Try that.
 
 
@@ -145,7 +145,7 @@ public function boot()
 *Here is the thrown exception:*
 ![scrnli_10_7_2021_12-31-07 AM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1633560016172/2zfZbVfJc.png)
 
-There is an amazing package called  [Laravel-query-detector](https://github.com/beyondcode/laravel-query-detector) , It does the same thing too, But by alerting the user with the N+1 problem instead of thrown an exception.
+There is an amazing package called  [Laravel-query-detector](https://github.com/beyondcode/laravel-query-detector), It does the same thing too, But by alerting the user with the N+1 problem instead of throwing an exception.
 
 
 ## Lazy-eager loading
@@ -162,7 +162,7 @@ if(count($albums) < 100)
 
 ## Conclusion
 
-The N+1 queries problem is a very common issue, knowing and understanding the cause of the issue is the most important solution for it. In this article, We learned how to detect the N+1 problem and how to deal with it in different ways. We wrote a PHP native solution in addition to learn some Laravel Eloquent tools that use eager loading to reduce the number of queries. We also threw the light on some loading strategies and the difference between them.
+The N+1 queries problem is a very common issue, knowing and understanding the cause of the issue is the most important solution for it. In this article, We learned how to detect the N+1 problem and how to deal with it in different ways. We wrote a PHP native solution in addition to learn some Laravel Eloquent tools that use eager loading to reduce the number of queries. We also threw light on some loading strategies and the difference between them.
 
 
 ***Thanks for reading! If you liked this article and want more content like this, Subscribe to my newsletter and make sure to follow me on  [Twitter](https://twitter.com/Sala7JR) and [Linkedin](https://www.linkedin.com/in/salah96/) or visit my  [portfolio](https://www.mohammedsalah.co) *** 👋
