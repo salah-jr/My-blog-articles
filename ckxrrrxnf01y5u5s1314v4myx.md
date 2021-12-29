@@ -1,4 +1,4 @@
-## Livewire Guide: Here's how to Build a real-time contact form.
+## Getting Smart With Livewire: A Practical Guide.
 
 Hello again with a new lightweight article that will touch on in-depth the step-by-step implementation of a real-time contact form using the Laravel Livewire library.
 
