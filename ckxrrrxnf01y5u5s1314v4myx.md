@@ -1,4 +1,13 @@
-## Getting Smart With Livewire: A Practical Guide.
+---
+title: "Getting Smart With Livewire: A Practical Guide."
+datePublished: Wed Dec 29 2021 16:45:38 GMT+0000 (Coordinated Universal Time)
+cuid: ckxrrrxnf01y5u5s1314v4myx
+slug: getting-smart-with-livewire-a-practical-guide
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1640796262961/oJMhE7q8g.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1640796328542/-aMeD2LMS.png
+tags: laravel, livewire
+
+---
 
 Hello again with a new lightweight article that will touch on in-depth the step-by-step implementation of a real-time contact form using the Laravel Livewire framework.
 
