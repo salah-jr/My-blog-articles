@@ -2,7 +2,7 @@
 title: "19. Remove Nth Node From End of List"
 seoTitle: "19. Remove Nth Node From End of List"
 seoDescription: "19. Remove Nth Node From End of List"
-datePublished: Thu Aug 08 2024 21:35:44 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Jul 02 2022 10:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clzlsrt0n000e09jn14h599ds
 slug: leetcode-19-remove-nth-node-from-end-of-list
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723152880179/e6e273d1-389a-4a68-8413-b8cfc2dfd930.jpeg
