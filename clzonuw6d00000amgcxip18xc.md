@@ -5,6 +5,8 @@ seoDescription: "113. Path Sum II"
 datePublished: Wed Apr 20 2022 10:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clzonuw6d00000amgcxip18xc
 slug: 113-path-sum-ii
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723411600954/def809fa-2713-4b2e-9d05-cd6e9c3da94f.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723411606845/0e4d5dfa-5479-4cd9-aea6-9413fe7d653d.jpeg
 tags: leetcode, problem-solving-skills
 
 ---
