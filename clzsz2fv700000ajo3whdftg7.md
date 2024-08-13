@@ -5,8 +5,8 @@ seoDescription: "21. Merge Two Sorted Lists"
 datePublished: Sun Dec 12 2021 10:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clzsz2fv700000ajo3whdftg7
 slug: 21-merge-two-sorted-lists
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723586742978/855c4337-942f-4645-9dd5-af19da6008b2.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723586761253/360d4790-7357-4d1e-8733-73792f684a30.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723586843126/ce5d41bb-c6c3-469f-b129-08af2af61075.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723586850180/1773305f-bea7-4872-9b63-e5a6d7baf386.jpeg
 tags: leetcode, problem-solving-skills
 
 ---
