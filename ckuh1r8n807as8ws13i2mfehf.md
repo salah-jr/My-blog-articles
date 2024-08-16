@@ -1,5 +1,5 @@
 ---
-title: "Everything You Need To Know about the N+1 problem"
+title: "Everything You Need To Know About The N+1 Problem"
 seoTitle: "How to deal with N+1 problem in PHP Laravel and what is eager loading"
 seoDescription: "In this article, We will dig deep into the N+1 problem that could happen in most ORMs like Laravel Eloquent and solving it with eager loading."
 datePublished: Thu Oct 07 2021 14:40:27 GMT+0000 (Coordinated Universal Time)
