@@ -23,12 +23,12 @@ Output: [1,1,2,3,4,4]
 ```
 
 ```plaintext
-plaintextCopy codeInput: list1 = [], list2 = []
+codeInput: list1 = [], list2 = []
 Output: []
 ```
 
 ```plaintext
-plaintextCopy codeInput: list1 = [], list2 = [0]
+codeInput: list1 = [], list2 = [0]
 Output: [0]
 ```
 
