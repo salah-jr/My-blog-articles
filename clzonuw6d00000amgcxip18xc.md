@@ -18,7 +18,7 @@ Given a binary tree and a target sum, find all root-to-leaf paths where the sum 
 **Example:**
 
 ```plaintext
-plaintextCopy codeInput: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
+codeInput: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
 Output: [
   [5,4,11,2],
   [5,8,4,5]
@@ -26,12 +26,12 @@ Output: [
 ```
 
 ```plaintext
-plaintextCopy codeInput: root = [1,2,3], targetSum = 5
+codeInput: root = [1,2,3], targetSum = 5
 Output: []
 ```
 
 ```plaintext
-plaintextCopy codeInput: root = [1,2], targetSum = 1
+codeInput: root = [1,2], targetSum = 1
 Output: []
 ```
 
