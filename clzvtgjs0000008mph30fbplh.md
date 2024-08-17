@@ -24,12 +24,12 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 ```
 
 ```java
-plaintextCopy codeInput: nums = [1]
+codeInput: nums = [1]
 Output: 1
 ```
 
 ```java
-plaintextCopy codeInput: nums = [5,4,-1,7,8]
+codeInput: nums = [5,4,-1,7,8]
 Output: 23
 ```
 
