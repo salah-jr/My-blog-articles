@@ -18,17 +18,17 @@ Given a linked list, swap every two adjacent nodes and return its head. You must
 **Example:**
 
 ```plaintext
-plaintextCopy codeInput: head = [1,2,3,4]
+codeInput: head = [1,2,3,4]
 Output: [2,1,4,3]
 ```
 
 ```plaintext
-plaintextCopy codeInput: head = []
+codeInput: head = []
 Output: []
 ```
 
 ```plaintext
-plaintextCopy codeInput: head = [1]
+codeInput: head = [1]
 Output: [1]
 ```
 
