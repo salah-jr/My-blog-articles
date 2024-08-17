@@ -26,12 +26,12 @@ Explanation: The sum of 2 and 7 is 9. Therefore, index 1 and index 2 are returne
 ```
 
 ```java
-plaintextCopy codeInput: numbers = [2,3,4], target = 6
+codeInput: numbers = [2,3,4], target = 6
 Output: [1,3]
 ```
 
 ```java
-plaintextCopy codeInput: numbers = [-1,0], target = -1
+codeInput: numbers = [-1,0], target = -1
 Output: [1,2]
 ```
 
