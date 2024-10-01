@@ -7,7 +7,6 @@ cuid: clzue2mgq000009mfcjto65nz
 slug: leetcode-98-validate-binary-search-tree
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723672390406/98d8aee0-9dc7-4486-8d79-08a3b4afa727.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723672417270/50c99523-a6ec-49af-b013-ed44f226c6f4.jpeg
-tags: leetcode, problem-solving-skills
 
 ---
 
