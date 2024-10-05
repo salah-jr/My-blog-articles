@@ -11,7 +11,7 @@ tags: apis, restful-apis, api-best-practices, api-for-developers
 
 ---
 
-### Overview
+### **Overview**
 
 Let’s get back to the chapter title “What’s an API?” As we know, it’s an application programming interface. But APIs are so much more than their name suggests, and to understand what it really is, we must focus on the keyword *interface*.
 
@@ -21,11 +21,11 @@ APIs serve as the interface between software programs, humans, and the internet.
 
 For instance, APIs allow weather data from sources like the National Weather Service to be shared with various apps. They also handle payment processing, enabling businesses to collect money easily without needing to manage the financial technology themselves. APIs are essential for the success of major internet companies like Amazon, Stripe, Facebook, and Google.
 
-### Why Do We Need APIs?
+### **Why Do We Need APIs?**
 
 APIs were created to share data with providers who can solve specific problems, so others don’t have to solve them from scratch. For example, you can embed a map without rebuilding Google Maps, let users sign in without recreating Facebook Login, or create a chatbot without building a messaging system. In these cases, APIs allow you to add features using data or services from specialized platforms. This helps businesses build unique products faster, by leveraging existing technologies and tapping into other ecosystems instead of reinventing everything.
 
-### Who Are Our Users?
+### **Who Are Our Users?**
 
 When building any product, it is a good idea to focus on the customer first. Understanding who your developers are, their needs, and why they are using your API helps ensure you're building something useful and aligned with their expectations. Focusing on developers prevents creating APIs that are difficult to use or irrelevant to their needs.
 
@@ -40,7 +40,7 @@ The author provides examples of different developer needs:
 * Jane, a frontend developer, wants to integrate real-time customer support chat into her website.
     
 
-### The Business Case for APIs
+### **The Business Case for APIs**
 
 APIs play a crucial role in today’s tech market, often driving innovation and business growth. They can generate profit through various models (like subscriptions or usage fees) or support a company's broader strategy by enabling third-party integrations and new distribution channels. However, APIs must align with the core business, as seen with companies like GitHub and Stripe, otherwise they risk conflicting with revenue models, like Twitter’s API affecting ad revenue.
 
@@ -69,6 +69,10 @@ GitHub initially developed its API for external developers to access their data,
 
 For some companies, the API is the product. Such is the case with Stripe and Twilio. Stripe provides APIs for payment processing on the internet. Twilio provides APIs for communication via SMS, voice, and messaging. In the case of these two companies, building an API is 100% aligned with a single-product audience. Their entire business focuses on creating seamless API experiences, making it the most straightforward approach for aligning product and customer needs.
 
-### Conclusion
+### **Conclusion**
 
 APIs are an essential part of today's tech products, and there are many ways to build a business around them. In Chapter 2, we'll look at different ways to design APIs and cover key ideas for creating them.
+
+### References
+
+[https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav\_sb\_ss\_1\_18](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
