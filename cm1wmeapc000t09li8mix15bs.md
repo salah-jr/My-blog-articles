@@ -5,7 +5,7 @@ seoDescription: "Discover what APIs are, their importance, typical users, and ho
 datePublished: Sat Oct 05 2024 20:42:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm1wmeapc000t09li8mix15bs
 slug: designing-web-apis-chapter-1-whats-an-api
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728589236803/cea95bb2-f9ba-4d7c-bb8a-a53a4deed9e0.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728589997684/d5bd0b90-cc30-4782-bd58-a80c49489616.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728589245134/457a8058-7a29-446e-bbf0-18c68d724690.jpeg
 tags: apis, restful-apis, api-best-practices, api-for-developers
 
