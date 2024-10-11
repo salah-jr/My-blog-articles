@@ -283,4 +283,8 @@ There is no single API paradigm that fits all situations. Each type has its stre
 
 In Chapter 3, we'll explore API security, including authentication and authorization techniques, with a focus on OAuth—a widely used protocol for secure, standard authorization.
 
+### **References**
+
+[**https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav\_sb\_ss\_1\_18**](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
+
 **Thank you for taking the time to read, and I hope you found the insights valuable!**
