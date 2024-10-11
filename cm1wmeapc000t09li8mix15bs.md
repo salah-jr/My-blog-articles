@@ -71,7 +71,7 @@ For some companies, the API is the product. Such is the case with Stripe and Twi
 
 ### **Conclusion**
 
-APIs are an essential part of today's tech products, and there are many ways to build a business around them. In Chapter 2, we'll look at different API paradigms and cover key ideas for creating them.
+APIs are an essential part of today's tech products, and there are many ways to build a business around them. In [Chapter 2](https://blog.mohammedsalah.online/designing-web-apis-chapter-2-api-paradigms), we'll look at different API paradigms and cover key ideas for creating them.
 
 ### References
 
