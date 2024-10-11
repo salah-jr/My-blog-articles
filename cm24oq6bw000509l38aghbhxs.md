@@ -7,7 +7,6 @@ cuid: cm24oq6bw000509l38aghbhxs
 slug: designing-web-apis-chapter-2-api-paradigms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728597100253/b4991895-0f9f-4510-b27f-983da5dcbeb5.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728597132634/53dc1a28-3519-49b2-9d59-4213876e6ac3.jpeg
-tags: apis, graphql, rest-api
 
 ---
 
