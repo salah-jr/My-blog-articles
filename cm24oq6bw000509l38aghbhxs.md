@@ -277,7 +277,7 @@ However, HTTP Streaming has challenges like buffering, where data might not be d
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728648025123/5958f83a-c3db-47ac-920c-890a6cdba81c.jpeg align="center")
 
-### Conclusion
+## Conclusion
 
 There is no single API paradigm that fits all situations. Each type has its strengths for specific use cases, and sometimes, you may need to support more than one. For instance, Slack combines RPC-style APIs, WebSockets, and WebHooks. The key is understanding which approach best serves your users, aligns with your business objectives, and works within your system's limitations.
 
