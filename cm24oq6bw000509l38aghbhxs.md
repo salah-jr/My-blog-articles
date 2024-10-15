@@ -26,17 +26,17 @@ In my experience as a backend engineer, I designed a REST API for an e-commerce 
 
 * Resources are part of the URL like `/users`.
     
-* For each resource generally we have two URLs: one for the collection like `/users` , and one for a specific element like `/users/U123`.
+* For each resource generally, we have two URLs: one for the collection like `/users` , and one for a specific element like `/users/U123`.
     
 * Nouns are used instead of verbs for resources. For example, instead of `/getUserInfo/U123` use `/users/U123`.
     
 * HTTP methods like GET, POST, PUT, PATCH, and DELETE tell the server what action to take on a resource. Each method serves a different purpose:
     
-    * **Create (POST):** Use `POST` to add new resources. For example, sending a `POST` request to `/products` can create a new product in an online store.
+    * **Create (POST):** Use `POST` to add new resources. For example, sending a `POST` request to `/products` create a new product in an online store.
         
     * **Read (GET):** Use `GET` to retrieve resources without changing them. For instance, a `GET` request to `/products/1` will fetch details of the product with ID 1. GET requests are read-only and can be cached.
         
-    * **Update (PUT/PATCH):** Use `PUT` to completely replace a resource and `PATCH` for partial updates. For example, a `PUT` request to `/products/1` could replace the entire product, while a `PATCH` request might only change its price.
+    * **Update (PUT/PATCH):** Use `PUT` to completely replace a resource and `PATCH` for partial updates. For example, a `PUT` request `/products/1` could replace the entire product, while a `PATCH` request might only change its price.
         
     * **Delete (DELETE):** Use `DELETE` to remove resources. A `DELETE` request to `/products/1` would remove the product with ID 1.
         
@@ -205,11 +205,11 @@ While GraphQL has several benefits, it introduces challenges for the API provide
 
 ## Event-Driven APIs
 
-In traditional request–response APIs, data can quickly become outdated, especially for services with constantly changing information. Developers often use **polling** which is the process of checking for updates by repeatedly querying the API at set intervals.
+In traditional request-response APIs, data can quickly become outdated, especially for services with constantly changing information. Developers often use **polling** which is the process of checking for updates by repeatedly querying the API at set intervals.
 
-* **Low Frequency Polling**: If developers poll infrequently, they may miss important events, such as resource creation, updates, or deletions.
+* **Low-Frequency Polling**: If developers poll infrequently, they may miss important events, such as resource creation, updates, or deletions.
     
-* **High Frequency Polling**: Polling too often can waste resources, as most API calls may return no new data. For example, a study by Zapier found that only about 1.5% of their polling calls returned fresh data.
+* **High-Frequency Polling**: Polling too often can waste resources, as most API calls may return no new data. For example, a study by Zapier found that only about 1.5% of their polling calls returned fresh data.
     
 
 To address this issue and share real-time data about events, there are three common methods: **WebHooks**, **WebSockets**, and **HTTP Streaming**.
@@ -250,9 +250,9 @@ This approach allows you to receive real-time updates instead of polling the API
 
 ### **✨WebSockets**
 
-WebSocket is a protocol that creates a two-way communication channel over a single TCP connection, commonly used between web clients (like browsers) and servers, but also for server-to-server communication. WebSockets are great for fast, live streaming data and long-lived connections.
+WebSocket is a protocol that creates a two-way communication channel over a single TCP connection, commonly used between web clients (like browsers) and servers, but also for server-to-server communication. WebSockets are great for fast, live-streaming data and long-lived connections.
 
-Supported by all major browsers, WebSockets are often used for real-time applications. For instance, Slack uses WebSockets to stream events such as new messages or reactions to clients. It even offers a Real Time Messaging API for developers to receive events and send messages in real time. Similarly, Trello and Blockchain use WebSockets to update clients with real-time changes and notifications.
+Supported by all major browsers, WebSockets are often used for real-time applications. For instance, Slack uses WebSockets to stream events such as new messages or reactions to clients. It even offers a Real-Time Messaging API for developers to receive events and send messages in real-time. Similarly, Trello and Blockchain use WebSockets to update clients with real-time changes and notifications.
 
 WebSockets allow both the server and client to send and receive data at the same time, making them great for real-time communication. They work over ports **80 or 443**, which helps them bypass firewalls, making them ideal for enterprise environments. For example, many developers prefer Slack’s WebSocket API over WebHooks because they can securely receive events without exposing an HTTP endpoint to the internet.
 
@@ -264,7 +264,7 @@ This approach helped streamline the user experience by keeping the connection op
 
 ### **✨HTTP Streaming**
 
-With HTTP request–response APIs, clients send a request, and the server responds with a fixed-length message. But using HTTP Streaming, the server can keep the connection open and continue sending data in real-time.
+With HTTP request-response APIs, clients send a request, and the server responds with a fixed-length message. But by using HTTP Streaming, the server can keep the connection open and continue sending data in real-time.
 
 To enable streaming, one approach is to use the `Transfer-Encoding: chunked` header, which tells the client to expect chunks of data. Another approach is server-sent events (SSE), which works well with browsers via the `EventSource` API.
 
