@@ -13,7 +13,7 @@ tags: apis, restful-apis, api-best-practices, api-for-developers
 
 ### **Overview**
 
-Let’s get back to the chapter title “What’s an API?” As we know, it’s an application programming interface. But APIs are so much more than their name suggests, and to understand what it really is, we must focus on the keyword *interface*.
+Let’s get back to the chapter title “What’s an API?” As we know, it’s an application programming interface. However, APIs are so much more than their name suggests, and to understand what they really are, we must focus on the keyword *interface*.
 
 This chapter explains APIs — What they are, why they matter, and who uses them. It discusses their role in modern software development, highlights the traits of effective APIs, and emphasizes their importance for business success and user satisfaction.
 
@@ -37,12 +37,12 @@ The author provides examples of different developer needs:
     
 * Ben, a backend developer, requires a way to store receipts from an expense system.
     
-* Jane, a frontend developer, wants to integrate real-time customer support chat into her website.
+* Jane, a front-end developer, wants to integrate real-time customer support chat into her website.
     
 
 ### **The Business Case for APIs**
 
-APIs play a crucial role in today’s tech market, often driving innovation and business growth. They can generate profit through various models (like subscriptions or usage fees) or support a company's broader strategy by enabling third-party integrations and new distribution channels. However, APIs must align with the core business, as seen with companies like GitHub and Stripe, otherwise they risk conflicting with revenue models, like Twitter’s API affecting ad revenue.
+APIs play a crucial role in today’s tech market, often driving innovation and business growth. They can generate profit through various models (like subscriptions or usage fees) or support a company's broader strategy by enabling third-party integrations and new distribution channels. However, APIs must align with the core business, as seen with companies like GitHub and Stripe, otherwise, they risk conflicting with revenue models, like Twitter’s API affecting ad revenue.
 
 **Let’s take a more detailed look at the following ways that some companies have structured their API development:**
 
@@ -57,7 +57,7 @@ APIs play a crucial role in today’s tech market, often driving innovation and 
 
 Some companies build their APIs for internal developers first and then release them to external developers. There could be a number of motivations for this. One reason might be that the company sees potential value in adding an external API. This could create a developer ecosystem, drive new demand for the company’s product, or enable other companies to build products that the company itself does not want to build.
 
-To take a look at a specific instance, let’s explore how Slack’s API started— Slack’s API began as an internal tool for its messaging platform but later evolved into a Developer Platform, allowing third-party developers to create integrations because the APIs were already tested and well used by internal developers. This move helped expand Slack’s ecosystem, though it also introduced challenges balancing the needs of internal developers with those of external developers who required API stability.
+To take a look at a specific instance, let’s explore how Slack’s API started— Slack’s API began as an internal tool for its messaging platform but later evolved into a Developer Platform, allowing third-party developers to create integrations because the APIs were already tested and well used by internal developers. This move helped expand Slack’s ecosystem, though it also introduced challenges in balancing the needs of internal developers with those of external developers who required API stability.
 
 **2- APIs for External Developers First, Internal Developers Second:**
 
