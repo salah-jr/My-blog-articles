@@ -280,7 +280,7 @@ However, HTTP Streaming has challenges like buffering, where data might not be d
 
 There is no single API paradigm that fits all situations. Each type has its strengths for specific use cases, and sometimes, you may need to support more than one. For instance, Slack combines RPC-style APIs, WebSockets, and WebHooks. The key is understanding which approach best serves your users, aligns with your business objectives, and works within your system's limitations.
 
-In Chapter 3, we'll explore API security, including authentication and authorization techniques, with a focus on OAuth—a widely used protocol for secure, standard authorization.
+In [Chapter](https://hashnode.com/preview/66b52e7464b7931f978d1ac6) 3, we'll explore API security, including authentication and authorization techniques, with a focus on OAuth—a widely used protocol for secure, standard authorization.
 
 ## **References**
 
