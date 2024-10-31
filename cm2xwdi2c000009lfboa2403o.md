@@ -281,7 +281,7 @@ Sending limited information in the WebHook payload can improve security. Applica
 * Provide SDKs and sample code to help developers verify WebHook authenticity.
     
 
-## Conclusion
+# Conclusion
 
 Security is hard, and securing APIs is even harder. Once applications use a specific security method, changing it can be tricky, especially if vulnerabilities arise. It's important to think carefully about security before launching your API.
 
@@ -289,7 +289,7 @@ While creating new security methods might be tempting, it can lead to big risks 
 
 In Chapter 4, we'll discuss best practices for designing APIs that improve the developer experience.
 
-## **References**
+# **References**
 
 [**https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav\_sb\_ss\_1\_18**](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
 
