@@ -11,7 +11,7 @@ tags: apis, programming-tips, api-security
 
 ---
 
-API security is vital for web applications because new security risks appear all the time, and a breach can lead to serious data and financial losses. Engineers use methods like SSL, content checks, logs, and protections against attacks like CSRF and XSS. However, APIs shared with outside developers need extra protection beyond these standard practices. This chapter dives into the best practices companies use to keep their APIs secure. We’ll dive into security practices, including **Authentication and Authorization**, **OAuth**, and **WebHooks Security**, and wrap up with essential takeaways to strengthen your API security strategy.
+API security is vital for web applications because new security risks appear all the time, and a breach can lead to serious data and financial losses. Engineers use methods like SSL, content checks, logs, and protections against attacks like [CSRF](https://portswigger.net/web-security/csrf) and [XSS](https://www.cloudflare.com/learning/security/threats/cross-site-scripting/). However, APIs shared with outside developers need extra protection beyond these standard practices. This chapter dives into the best practices companies use to keep their APIs secure. We’ll dive into security practices, including **Authentication and Authorization**, **OAuth**, and **WebHooks Security**, and wrap up with essential takeaways to strengthen your API security strategy.
 
 # Authentication and Authorization
 
@@ -114,7 +114,7 @@ By implementing OAuth, you enable third-party applications to securely access us
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1730401744491/301f9b77-41fb-45e9-95f5-29a99bb82085.png align="center")
 
-*💡Note****,*** *Follow the arrows from right to left, top to bottom.*
+*💡Note*\*\*\*,\*\*\* *Follow the arrows from right to left, top to bottom.*
 
 ### Scopes
 
@@ -280,6 +280,27 @@ Sending limited information in the WebHook payload can improve security. Applica
     
 * Provide SDKs and sample code to help developers verify WebHook authenticity.
     
+
+# WebSockets Security
+
+*Note: This section is an additional resource for information and is not part of the main book content*
+
+To secure WebSockets, consider these key practices:
+
+1. **Use WSS (Secure WebSockets)**: Always use the `wss://` protocol, which encrypts the data over TLS/SSL to protect it from interception. This is the WebSocket equivalent of HTTPS.
+    
+2. **Authenticate Connections**: Implement token-based authentication (e.g., JWTs or OAuth) before establishing the WebSocket connection. This ensures only authorized users can access the WebSocket server.
+    
+3. **Origin Checking**: Validate the `Origin` header on the server to ensure only requests from trusted domains are allowed. This helps prevent cross-site attacks.
+    
+4. **Rate Limiting and Connection Throttling**: Limit the number of connections per IP to protect against DoS attacks and abuse. Close idle connections after a certain period to conserve resources.
+    
+5. **Input Validation**: Since WebSocket messages can contain user data, sanitize and validate inputs to prevent injection attacks.
+    
+6. **Close Connections on Errors**: Monitor for unexpected behaviors or errors and close any suspicious connections immediately to prevent exploitation.
+    
+
+These steps help mitigate common security issues with WebSockets, improving connection integrity and user data protection.
 
 # Conclusion
 
