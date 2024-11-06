@@ -7,7 +7,6 @@ cuid: cm2xwdi2c000009lfboa2403o
 slug: designing-web-apis-chapter-3-api-security
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728690021055/20876009-bdf2-4002-8d0c-b44d8290f95c.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728690048613/cbd996c1-7c7c-4145-8c12-0c4febf02f31.jpeg
-tags: apis, programming-tips, api-security
 
 ---
 
