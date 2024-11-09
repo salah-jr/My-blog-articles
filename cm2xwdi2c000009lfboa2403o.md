@@ -113,7 +113,7 @@ By implementing OAuth, you enable third-party applications to securely access us
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1730401744491/301f9b77-41fb-45e9-95f5-29a99bb82085.png align="center")
 
-*💡Note*\*\*\*,\*\*\* *Follow the arrows from right to left, top to bottom.*
+*💡Note*: *Follow the arrows from right to left, top to bottom.*
 
 ### Scopes
 
