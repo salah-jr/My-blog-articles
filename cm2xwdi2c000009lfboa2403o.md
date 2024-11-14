@@ -307,7 +307,7 @@ Security is hard, and securing APIs is even harder. Once applications use a spec
 
 While creating new security methods might be tempting, it can lead to big risks if not properly reviewed. Sticking to well-established security standards is a safer choice.
 
-In Chapter 4, we'll discuss best practices for designing APIs that improve the developer experience.
+In [Chapter 4](https://blog.mohammedsalah.online/chapter-4-design-best-practices), we'll discuss best practices for designing APIs that improve the developer experience.
 
 # **References**
 
