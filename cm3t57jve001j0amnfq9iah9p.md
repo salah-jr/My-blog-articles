@@ -100,7 +100,7 @@ Start by choosing the API paradigm that fits best. Use what you learned in [Chap
 | **RPC** | Expandable to actions beyond CRUD. | Currently, no operations beyond CRUD are required. No need to support extra actions. | ✘ |
 | **GraphQL** | Flexible for developers, keeps payloads small. | Overly complicated to implement; no client presentation needed at this time. | ✘ |
 
-For the **MyFiles** API, the best option is REST, as it aligns with the product's resource-oriented nature. Developers will need early access to the MyFiles account to understand it fully. In **Scenario 2**, we’ll explore how WebHooks can help avoid constant polling or open connections.
+For the **MyFiles** API, the best option is REST, as it aligns with the product's resource-oriented nature. Developers will need early access to the MyFiles account to understand it fully. In [**Scenario 2**](https://blog.mohammedsalah.online/designing-web-apis-chapter-5-design-in-practice#heading-scenario-2), we’ll explore how WebHooks can help avoid constant polling or open connections.
 
 Next, we choose [OAuth](https://blog.mohammedsalah.online/designing-web-apis-chapter-3-api-security#heading-what-is-oauth) for authentication, offering more security than Basic Authentication. OAuth with short-lived tokens and refresh tokens ensures secure access to private files. Then, we define OAuth [scopes](https://blog.mohammedsalah.online/designing-web-apis-chapter-3-api-security#heading-scopes) based on the resources and operations we want to provide through the API.
 
