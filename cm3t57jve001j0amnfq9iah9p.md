@@ -7,7 +7,6 @@ cuid: cm3t57jve001j0amnfq9iah9p
 slug: designing-web-apis-chapter-5-design-in-practice
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732167753691/e2290721-6db0-4a3c-ab2f-dc9da666b3dc.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1732300170495/3ad6bffe-73f2-4385-b01a-e44b582f56eb.jpeg
-tags: apis
 
 ---
 
