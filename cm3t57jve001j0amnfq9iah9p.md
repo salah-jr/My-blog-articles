@@ -176,15 +176,23 @@ The spec should include detailed information such as the developer’s workflow,
 \- `limit` (int, default: 100, max: 1000)  
 \- `cursor` (string, default: null)  
 \- `last_updated_after` (timestamp, default: null) | **Success (200):**  
-`[ { "id": "123", "name": "file1", "size": 12345, "is_deleted": false, "permalink": "http://..." } ]` | `read` |
+\[ { "id": "123", "name": "file1", "size": 12345, "is\_deleted": false, "permalink": "http://..." } \]  
+**Error (400):**  
+{ "error": "invalid\_parameter", "message": "Limit exceeds 1000." } | `read` |
 | **GET /files/:id** | None | **Success (200):**  
-`{ "id": "123", "name": "file1", "size": 12345, "is_deleted": false, "permalink": "http://..." }` | `read` |
+{ "id": "123", "name": "file1", "size": 12345, "is\_deleted": false, "permalink": "http://..." }  
+**Error (404):**  
+{ "error": "not\_found", "message": "File not found." } | `read` |
 | **PATCH /files/:id** | \- `name` (string, required)  
 \- `notes` (string, optional) | **Success (202):**  
-`{ "id": "123", "name": "updated_name", "last_modified": "2024-11-20" }` | `write` |
+{ "id": "123", "name": "updated\_name", "last\_modified": "2024-11-20" }  
+**Error (400):**  
+{ "error": "missing\_parameter", "message": "Name is required." } | `write` |
 | **POST /files** | \- `name` (string, required)  
 \- `notes` (string, optional) | **Success (201):**  
-`{ "id": "124", "name": "file2", "date_added": "2024-11-22", "size": 0, "is_deleted": false, "permalink": "http://..." }` | `write` |
+{ "id": "124", "name": "file2", "date\_added": "2024-11-22", "size": 0, "is\_deleted": false, "permalink": "http://..." }  
+**Error (400):**  
+{ "error": "invalid\_parameter", "message": "Name is required." } | `write` |
 
 ### MyFiles API: HTTP Status Codes and Error Responses
 
