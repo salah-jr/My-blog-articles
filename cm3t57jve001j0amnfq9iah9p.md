@@ -184,8 +184,7 @@ The spec should include detailed information such as the developer’s workflow,
 | **200 OK** | Request succeeded. | Outputs as described in API specification table. |
 | **201 Created** | File created successfully. | Outputs as described in API specification table. |
 | **202 Accepted** | File updated successfully. | Outputs as described in API specification table. |
-| **400 Bad Request** | Missing or invalid parameters. | `{ "error": "missing_parameter", "message": "Missing parameters: <parameter>" }` |
-| `{ "error": "file_size_too_large", "message": "File exceeds size limit <file_size_limit>." }` |  |  |
+| **400 Bad Request** | Missing or invalid parameters. | `{ "error": "missing_parameter", "message": "Missing parameters: <parameter>" }` `{ "error": "file_size_too_large", "message": "File exceeds size limit <file_size_limit>." }` |
 | **401 Unauthorized** | No valid access token. | `{ "error": "unauthorized", "message": "Invalid token provided." }` |
 | **403 Forbidden** | Access denied. | `{ "error": "forbidden", "message": "No permission to access file <id>." }` |
 | **404 Not Found** | File not found. | `{ "error": "file_not_found", "message": "File <id> not found." }` |
