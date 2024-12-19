@@ -310,7 +310,7 @@ Throughout this book, we emphasize the importance of considering the human facto
 
 Adapt the provided template to suit your organization, but always keep the user in mind!
 
-In **Chapter 6**, we’ll dive into API scalability, pagination, rate limiting, and developing SDKs, providing you with the tools to optimize and enhance your API design.
+In [**Chapter 6**](https://blog.mohammedsalah.online/designing-web-apis-chapter-6-scaling-apis), we’ll dive into API scalability, pagination, rate limiting, and developing SDKs, providing you with the tools to optimize and enhance your API design.
 
 ## **References**
 
