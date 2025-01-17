@@ -75,4 +75,4 @@ APIs are an essential part of today's tech products, and there are many ways to 
 
 ### References
 
-[https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav\_sb\_ss\_1\_18](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
+[**Designing Web APIs: Building APIs That Developers Love**](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
