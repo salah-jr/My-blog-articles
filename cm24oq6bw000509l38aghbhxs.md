@@ -284,6 +284,6 @@ In [Chapter](https://hashnode.com/preview/66b52e7464b7931f978d1ac6) 3, we'll exp
 
 ## **References**
 
-[**https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav\_sb\_ss\_1\_18**](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
+[**Designing Web APIs: Building APIs That Developers Love**](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
 
 **Thank you for taking the time to read, and I hope you found the insights valuable!**
