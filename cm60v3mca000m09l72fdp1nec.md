@@ -6,7 +6,7 @@ datePublished: Fri Jan 17 2025 14:35:41 GMT+0000 (Coordinated Universal Time)
 cuid: cm60v3mca000m09l72fdp1nec
 slug: designing-web-apis-chapter-7-managing-change
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737064162577/f227a075-7133-434c-8d1f-995411cf63fe.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737064172723/8998a447-b35c-412f-af91-ea7a299ad260.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737137962892/5aeb6ac2-3240-4446-9d75-1b54722552bd.jpeg
 tags: apis, api-versioning
 
 ---
