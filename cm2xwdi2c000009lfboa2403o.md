@@ -311,6 +311,6 @@ In [Chapter 4](https://blog.mohammedsalah.online/chapter-4-design-best-practices
 
 # **References**
 
-[**https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav\_sb\_ss\_1\_18**](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
+[**Designing Web APIs: Building APIs That Developers Love**](https://www.goodreads.com/book/show/38396693-designing-web-apis?ref=nav_sb_ss_1_18)
 
 **Thank you for reading! I hope you found the insights helpful.**
